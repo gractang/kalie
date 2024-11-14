@@ -1,0 +1,23 @@
+# If randomly sample grasping yaw.
+RANDOM_GRASP_YAW: false
+
+# Maximum velosity.
+VEL: 0.02
+
+# Maximum angular velosity.
+ANGVEL: 0.3
+
+# The safe height to move across the table.
+SAFE_Z: 0.3
+
+# The height offset to perform the grasping
+GRASP_Z_OFFSET: -0.01
+
+# The height to perform the planar motion.
+MOTION_Z: 0.08
+
+# Table height, the minimal height
+MIN_Z: 0.12
+
+## The random action added to the action.
+#ACTION_NOISE: [0.01, 0.01, 0.01, 0.0, 0.0, 0.03, 0.3]

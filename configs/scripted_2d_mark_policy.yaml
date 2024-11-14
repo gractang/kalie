@@ -1,0 +1,20 @@
+# If randomly sample grasping yaw.
+RANDOM_GRASP_YAW: false
+
+# Maximum time steps for each phase of a subtask.
+TIMEOUT_STEPS: 50
+
+# Maximum velosity.
+VEL: 0.02
+
+# Maximum angular velosity.
+ANGVEL: 0.3
+
+# The safe height to move across the table.
+SAFE_Z: 0.05
+
+# The height to perform the planar motion.
+MOTION_Z: 0.04
+
+# The random action added to the action.
+# ACTION_NOISE: [0.01, 0.01, 0.01, 0.0, 0.0, 0.03, 0.3]

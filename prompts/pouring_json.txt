@@ -1,0 +1,11 @@
+Describe the robot gripper's motion to pour small objects into the bowl. This should be done by outputting a string of keypoints and waypoints based on the provided image of the current table-top environment captured from a top-down camera.
+
+The definition of these keypoints and waypoints are:
+- 'Grasp Point': The point on the scoop handle where the robot gripper should hold.
+- 'Function Point': The point on the scoop that will move over the 'Target Point.'
+- 'Target Point': The point on the bowl that the 'Function Point' will move to.
+- 'Pre-contact Point': Same as the 'Target Point.'
+- 'Post-contact Point': Same as the 'Target Point.' 
+
+Please structure your response in the following format, where x and y are pixel coordinates:
+"{\n    \"Grasp Point\": [\n        x,\n        y\n    ],\n    \"Function Point\": [\n        x,\n        y\n    ],\n    \"Target Point\": [\n        x,\n        y\n    ],\n    \"Pre-contact Point\": [\n        x,\n        y\n    ],\n    \"Post-contact Point\": [\n        x,\n        y\n    ]\n}"

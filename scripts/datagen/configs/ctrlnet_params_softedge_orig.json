@@ -1,0 +1,30 @@
+{
+    "ControlNet": {
+        "args": [
+            {
+                "input_mode": "simple",
+                "loopback": false,
+                "enabled": true,
+                "module": "softedge_pidinet",
+                "model": "control_v11p_sd15_softedge",
+                "weight": 1.0,
+                "resize_mode": "Crop and Resize",
+                "low_vram": false,
+                "processor_res": 512,
+                "threshold_a": 0.5,
+                "threshold_b": 0.5,
+                "guidance_start": 0.0,
+                "guidance_end": 1.0,
+                "pixel_perfect": false,
+                "control_mode": "Balanced",
+                "inpaint_crop_input_image": true,
+                "hr_option": "Both",
+                "save_detected_map": true,
+                "pulid_mode": "Fidelity",
+                "animatediff_batch": false,
+                "batch_modifiers": [],
+                "batch_image_files": []
+            }
+        ]
+    }
+}

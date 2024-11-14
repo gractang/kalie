@@ -1,0 +1,11 @@
+Describe the robot gripper's motion to unplug the USB stick from the laptop. This should be done by outputting a string of keypoints and waypoints based on the provided image of the current table-top environment captured from a top-down camera.
+
+The definition of these keypoints and waypoints are:
+- 'Grasp Point': The point on the USB stick where the robot gripper should hold.
+- 'Function Point':  Same as the 'Grasp Point.'
+- 'Target Point': The point in the free space that will be moved to from 'Function Point.'
+- 'Pre-contact Point': The waypoint in the free space that the 'Function Point' moves to before the 'Target Point,' in a line with 'Target Point' and 'Post-contact Point.'
+- 'Post-contact Point': The waypoint in the free space that the 'Function Point' moves to after the 'Target Point,' in a line with 'Target Point' and 'Pre-contact Point.'
+
+Please structure your response in the following format, where x and y are pixel coordinates:
+"{\n    \"Grasp Point\": [\n        x,\n        y\n    ],\n    \"Function Point\": [\n        x,\n        y\n    ],\n    \"Target Point\": [\n        x,\n        y\n    ],\n    \"Pre-contact Point\": [\n        x,\n        y\n    ],\n    \"Post-contact Point\": [\n        x,\n        y\n    ]\n}"

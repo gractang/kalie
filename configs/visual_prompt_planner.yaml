@@ -1,0 +1,14 @@
+PROMPT_ROOT_DIR: './prompts'
+PROMPT_NAME: 'visual_prompt_planner'
+
+# If conditioned on the observation image when planning for the subtasks.
+PLAN_WITH_OBS_IMAGE: true
+
+# Maximum time steps to perform each subtask.
+SUBTASK_TIMEOUT: 100
+
+# Number of candidate keypoints on each object.
+NUM_CANDIDATE_KEYPOINTS: 5
+
+# The grid size for sampling waypoints.
+WAYPOINT_GRID_SIZE: [5, 5]
